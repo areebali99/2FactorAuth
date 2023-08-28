@@ -27,7 +27,7 @@ function CodeItem({ code, index, reorderCodes }) {
   };
 
   return (
-    <div className="center-screen">
+    <div className="center-screen mt">
       <Space direction="vertical" size={16}>
         <Card title="Codes List" style={{ width: 300 }}>
           <Form.Item label="Code Name">
