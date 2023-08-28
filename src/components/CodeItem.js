@@ -15,7 +15,7 @@ function CodeItem({ code, index, reorderCodes }) {
         setDisplayedCode(newCodeValue);
         setCountdown(60); // Reset countdown to restart the animation
       }
-    }, 920); // Reduce interval to 1 second if countdown > 0, otherwise 60 seconds
+    }, 940); // Reduce interval to 1 second if countdown > 0, otherwise 60 seconds
   
     return () => clearInterval(interval);
   }, [countdown, index, reorderCodes, code]);
